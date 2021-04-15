@@ -23,6 +23,7 @@ services:
             - selenium
     mysql:
         image: 'mysql:8.0'
+        container_name: 'example-app_mysql_1'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
