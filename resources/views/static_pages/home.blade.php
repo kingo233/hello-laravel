@@ -7,7 +7,7 @@
         <section class="status_form">
           @include('shared._status_form')
         </section>
-        <h4>微博列表</h4>
+        <h4>帖子列表</h4>
         <hr>
         @include('shared._feed')
       </div>
@@ -22,13 +22,14 @@
     </div>
   @else
     <div class="jumbotron">
-      <h1>Hello Laravel</h1>
+      <h1>山魂海韵</h1>
       <p class="lead">
-        你现在所看到的是 <a href="https://learnku.com/courses/laravel-essential-training">Laravel 入门教程</a> 的示例项目主页。
+        你现在所看到的是山东大学威海的校园论坛主页。
       </p>
       <p>
         一切，将从这里开始。
       </p>
+      <br>
       <p>
         <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
       </p>

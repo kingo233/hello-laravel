@@ -39,7 +39,7 @@ class UsersController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => bcrypt($request->password)
-            ]);
+        ]);
 
 
         $this->sendEmailConfirmationTo($user);
